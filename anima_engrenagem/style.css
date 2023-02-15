@@ -5,8 +5,20 @@
     left: 0px;
     animation: engrena 5s infinite linear;
 }
+.minha_engrenagem2
+{
+    position: absolute;
+    top: 90px;
+    left: 240px;
+    animation: engrena2 5s infinite linear;
+}
 @keyframes engrena
 {
     0% { rotate: 0deg;}
     100% { rotate: 360deg;}
+}
+@keyframes engrena2
+{
+    0% { rotate: 0deg;}
+    100% { rotate: -360deg;}
 }
