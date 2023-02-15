@@ -1,0 +1,12 @@
+.minha_engrenagem
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: engrena 5s infinite linear;
+}
+@keyframes engrena
+{
+    0% { rotate: 0deg;}
+    100% { rotate: 360deg;}
+}
